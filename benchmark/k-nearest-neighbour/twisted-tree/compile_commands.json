@@ -1,0 +1,67 @@
+[
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-w", 
+            "-std=c++0x", 
+            "-O3", 
+            "-I./src", 
+            "-I/usr/local/lib/clang/3.8.0/include/", 
+            "-o", 
+            "build/util.o", 
+            "src/util.cpp"
+        ], 
+        "directory": "/Users/Paul/dev/18-cs780/benchmark/k-nearest-neighbour/twisted-tree", 
+        "file": "src/util.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-w", 
+            "-std=c++0x", 
+            "-O3", 
+            "-I./src", 
+            "-I/usr/local/lib/clang/3.8.0/include/", 
+            "-o", 
+            "build/main.o", 
+            "src/main.cpp"
+        ], 
+        "directory": "/Users/Paul/dev/18-cs780/benchmark/k-nearest-neighbour/twisted-tree", 
+        "file": "src/main.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-w", 
+            "-std=c++0x", 
+            "-O3", 
+            "-I./src", 
+            "-I/usr/local/lib/clang/3.8.0/include/", 
+            "-o", 
+            "build/tree.o", 
+            "src/tree.cpp"
+        ], 
+        "directory": "/Users/Paul/dev/18-cs780/benchmark/k-nearest-neighbour/twisted-tree", 
+        "file": "src/tree.cpp"
+    }, 
+    {
+        "arguments": [
+            "c++", 
+            "-c", 
+            "-w", 
+            "-std=c++0x", 
+            "-O3", 
+            "-I./src",
+            "-I/usr/local/opt/llvm@5/include/c++/v1/",
+            "-I/usr/local/opt/llvm@5/lib/clang/5.0.1/include/",
+            "-o", 
+            "build/traversal.o", 
+            "src/traversal.cpp"
+        ], 
+        "directory": "/Users/Paul/dev/18-cs780/benchmark/k-nearest-neighbour/twisted-tree", 
+        "file": "src/traversal.cpp"
+    }
+]
